@@ -12,8 +12,8 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <router-link to="/about" tag="li">
-                        <a>about</a>
+                    <router-link to="/register" tag="li">
+                        <a>注册</a>
                     </router-link>
                 </ul>
             </div>
