@@ -15,27 +15,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <router-link to="/" class="navbar-brand">Laravel SPA</router-link>
-                </div>
-                <div class="collapse navbar-collapse" id="navbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <router-link to="/about" tag="li">
-                            <a>about</a>
-                        </router-link>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <router-view></router-view>
+        <app></app>
     </div>
 <script src="/js/app.js"></script>
 </body>
